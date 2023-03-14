@@ -1,0 +1,7 @@
+{
+  "name": "ReviewGoals",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
