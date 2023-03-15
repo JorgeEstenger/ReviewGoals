@@ -11,5 +11,8 @@ export class DeseosService {
   constructor() { 
   const lista1 = new Lista('1st Goals');
   const lista2 = new Lista('2nd Goals');
+
+  this.listas.push(lista1, lista2);
+  console.log(this.listas);
   }
 }

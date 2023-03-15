@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Lista } from '../models/lista.model';
 import { DeseosService } from '../services/deseos.service';
 
 @Component({
@@ -8,7 +9,10 @@ import { DeseosService } from '../services/deseos.service';
 })
 export class Tab1Page {
 
+  listas: Lista[]=[];
+
   constructor( public deseosServices: DeseosService) {
+    
     
   }
 
